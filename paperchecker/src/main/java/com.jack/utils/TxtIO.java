@@ -6,7 +6,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * 读写txt文件的工具类
  */
-public class TxtIOUtils {
+public class TxtIO {
 
     /**
      * @author jack
