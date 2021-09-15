@@ -27,7 +27,7 @@ public class HammingUtils {
      * 输入两个simHash值，输出相似度
      * simHash1
      * simHash2
-     * @return 相似度
+     * @return 相似度 0.00~1.00
      */
     public static double getSimilarity(String simHash1, String simHash2) {
         // 通过 simHash1 和 simHash2 获得它们的海明距离

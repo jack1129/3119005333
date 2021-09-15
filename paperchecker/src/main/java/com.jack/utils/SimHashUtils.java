@@ -9,7 +9,7 @@ import java.util.List;
 
 public class SimHashUtils {
     /**
-     * @param str 传入的Srting类型字符串
+     * @param str 传入的String类型字符串
      * @return 返回str的hash值
      * @author jack
      * 传入String，计算出它的hash值，并以字符串形式输出
@@ -34,8 +34,8 @@ public class SimHashUtils {
     public static String getSimHash(String str) {
         // 文本长度太短时HanLp无法取得关键字
         try {
-            if (str.length() < 200) throw new ShortStringException("文本过短！");
-        } catch (ShortStringException e) {
+            if (str.length() < 200) throw new ShortTxtException("文本过短！");
+        } catch (ShortTxtException e) {
             e.printStackTrace();
             return null;
         }
